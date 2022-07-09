@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "-CLOUD
+          name: "ALPHA"
           command: "echo -CLOUD"
 
 # Invoke jobs via workflows
