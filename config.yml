@@ -9,7 +9,7 @@ executors:
           username: $DOCKER_HUB_USER
           password: $DOCKER_HUB_PASSWORD
 jobs:
-  my-job-name:
+  alpha-cloud:
 
     executor: my-custom-executor
     steps:
@@ -17,9 +17,7 @@ jobs:
       - run: |
           # echo Hello, World!
 
-    
-
 workflows:
   my-custom-workflow:
     jobs:
-      - my-job-name
+      - alpha-cloud
